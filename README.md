@@ -10,3 +10,6 @@ Regarding team Consecutive win/loss, it uses the ArrayList match data individual
 
 That new list containing the team name is used for Average Data calculation.
 
+To run the Code  
+Requirements : Java JDK 
+
