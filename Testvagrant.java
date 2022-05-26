@@ -204,6 +204,7 @@ public class Testvagrant{
 		new Map2();
 
 		//display points table in sorted mannner using both map1 and map2 and Comparator class method
+		System.out.println("Sorted Table List");
         showTable();
 
 		System.out.println();
@@ -213,11 +214,27 @@ public class Testvagrant{
 		System.out.println("Please write the number for consecutive wins or losses:");
 		
 		int k=sc.nextInt(); // for consecutive number
-		System.out.println("Please write 0 for loss and 1 for win:");
 		
+		System.out.print("Please write 0 for loss and 1 for win:");
 		int winloss=sc.nextInt();  // 1 for win and 0 for loss
-		
+		System.out.println();
 		//method returns a list conatining the names of filtered teams 
+		
+		
+		
+		// Below it Will display if you have chosen Win or Loss
+		String stringWinLoss="";
+		if(winloss==0)
+		{
+			stringWinLoss+="Loss";
+		}
+		else 
+		{
+			stringWinLoss+="Wins";
+		}
+		
+		// Calls method and logic for team consecutive wins otr losses
+		System.out.println("Below are the teams with consecutive "+stringWinLoss);
 		List<String> teamWinLoss=search(k,winloss);
 		for(String str:teamWinLoss)
                System.out.println(str);
