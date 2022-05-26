@@ -226,7 +226,7 @@ public class Testvagrant{
 		String stringWinLoss="";
 		if(winloss==0)
 		{
-			stringWinLoss+="Loss";
+			stringWinLoss+="Losses";
 		}
 		else 
 		{
@@ -234,16 +234,17 @@ public class Testvagrant{
 		}
 		
 		// Calls method and logic for team consecutive wins otr losses
-		System.out.println("Below are the teams with consecutive "+stringWinLoss);
+		System.out.println("Below are the teams with "+k+" consecutive "+stringWinLoss+":");
 		List<String> teamWinLoss=search(k,winloss);
 		for(String str:teamWinLoss)
-               System.out.println(str);
+               System.out.print(str+" ");
 		System.out.println();
         
-		
+		System.out.println();
 		// METHOD OFR AVERAGE OF THE FILTERED TEAMS 
-		System.out.println(average(teamWinLoss));
-
+		System.out.print("Average Points for the teams with "+k+" consecutive "+stringWinLoss+": ");
+		System.out.print(average(teamWinLoss));
+        System.out.println();
 	}
 	
 } 
