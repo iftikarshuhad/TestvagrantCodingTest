@@ -2,7 +2,7 @@ To run the Code
 Requirements : Java JDK or Eclipse.
 
 Class Name : Testvagrant , there is only one class , the static classes are inside it , one 
-can simply copy the code  and run in his/her system.
+can simply copy the code  and run in his/her system
 
 In this project I have used Java Map Interface to link the Respective teams to the Points table and the respective match win/loss data.
 Map gives us great benefit in storing and linking the data. 
