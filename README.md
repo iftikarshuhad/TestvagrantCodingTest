@@ -6,7 +6,7 @@ can simply copy the code  and run in his/her system
 
 In this project I have used Java Map Interface to link the Respective teams to the Points table and the respective match win/loss data.
 Map gives us great benefit in storing and linking the data. 
-This is a unique and easy approch in this problem sovling questio
+This is a unique and easy approch in this problem sovling question.
 
 I used Array List as the Dynamic Array for match win/loss data storage so the array can be increased or decreased when required.
 
